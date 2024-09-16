@@ -1,0 +1,17 @@
+{
+    "name": "DTT.MinigameAdvertisements.Runtime",
+    "rootNamespace": "DTT.MinigameAdvertisements",
+    "references": [
+        "GUID:1711cb30f577ba1498364a78a6873853",
+        "GUID:ff6de30450f3748908ff580f6ec64d9a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

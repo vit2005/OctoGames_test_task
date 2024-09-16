@@ -1,0 +1,11 @@
+﻿{
+  "title": "Momory Minigame: get started quickly",
+  "text": "[DTT Momory Minigame is a minigame template that gives the user access to an easy configurable memory game.][Want to dive deeper? Take a look at our documentation:][l]",
+  "links": [
+    {
+      "text": "Open documentation",
+      "url": "Documentation.pdf",
+      "inline": false
+    }
+  ]
+}

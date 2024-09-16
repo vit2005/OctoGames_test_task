@@ -1,0 +1,15 @@
+{
+    "name": "DTT.Minigame-Memory.Runtime",
+    "references": [
+        "GUID:40110409d6f32d94c8a49de52995a651"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,11 @@
+{
+    "name": "com.elringus.naninovel.spreadsheet",
+    "version": "1.0.0",
+    "displayName": "Naninovel Spreadsheet",
+    "description": "A tool for Naninovel visual novel engine to export/import scenario script, managed text and localization data to/from a spreadsheet.",
+    "unity": "2019.4",
+    "author": {
+        "name": "Elringus",
+        "url": "https://naninovel.com"
+    }
+}

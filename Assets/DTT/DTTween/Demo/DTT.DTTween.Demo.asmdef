@@ -1,0 +1,16 @@
+{
+    "name": "DTT.DTTween.Demo",
+    "rootNamespace": "DTT.DTTween.Demo",
+    "references": [
+        "GUID:aa12e170004bf7c49a44b24dd6ee1fe3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

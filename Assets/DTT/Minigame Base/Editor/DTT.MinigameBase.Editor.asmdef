@@ -1,0 +1,24 @@
+{
+    "name": "DTT.MinigameBase.Editor",
+    "rootNamespace": "DTT.MinigameBase.Editor",
+    "references": [
+        "GUID:40110409d6f32d94c8a49de52995a651",
+        "GUID:343deaaf83e0cee4ca978e7df0b80d21",
+        "GUID:2bafac87e7f4b9b418d9448d219b01ab",
+        "GUID:b5e078f64d95bba4a8ba03b5b4940114",
+        "GUID:c6a12e1e013355540ab606f758b6c505",
+        "GUID:1711cb30f577ba1498364a78a6873853",
+        "GUID:035390020c303f446a7b7076b8e47973"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

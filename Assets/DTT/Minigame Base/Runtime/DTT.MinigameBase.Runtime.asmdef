@@ -1,0 +1,20 @@
+{
+    "name": "DTT.MinigameBase.Runtime",
+    "rootNamespace": "DTT.MinigameBase",
+    "references": [
+        "GUID:ff6de30450f3748908ff580f6ec64d9a",
+        "GUID:343deaaf83e0cee4ca978e7df0b80d21",
+        "GUID:2bafac87e7f4b9b418d9448d219b01ab",
+        "GUID:035390020c303f446a7b7076b8e47973",
+        "GUID:30d4d625b0cc0c1438d192a7f3e683ca"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 018beea489744cb184ed489b5769b508, type: 3}
+  m_Name: Level Database
+  m_EditorClassIdentifier: 
+  _data:
+  - levelNumber: 1
+    score: 0
+    locked: 0
+  - levelNumber: 2
+    score: 0
+    locked: 1
+  - levelNumber: 3
+    score: 0
+    locked: 1
+  - levelNumber: 4
+    score: 0
+    locked: 1
+  - levelNumber: 5
+    score: 0
+    locked: 1
+  - levelNumber: 6
+    score: 0
+    locked: 1
+  - levelNumber: 7
+    score: 0
+    locked: 1
+  - levelNumber: 8
+    score: 0
+    locked: 1
+  - levelNumber: 9
+    score: 0
+    locked: 1
+  - levelNumber: 10
+    score: 0
+    locked: 1
+  - levelNumber: 11
+    score: 0
+    locked: 1
+  - levelNumber: 12
+    score: 0
+    locked: 1
+  - levelNumber: 13
+    score: 0
+    locked: 1
+  - levelNumber: 14
+    score: 0
+    locked: 1
+  - levelNumber: 15
+    score: 0
+    locked: 1
+  - levelNumber: 16
+    score: 0
+    locked: 1
+  - levelNumber: 17
+    score: 0
+    locked: 1
+  - levelNumber: 18
+    score: 0
+    locked: 1
+  - levelNumber: 19
+    score: 0
+    locked: 1
+  - levelNumber: 20
+    score: 0
+    locked: 1
+  - levelNumber: 21
+    score: 0
+    locked: 1
+  - levelNumber: 22
+    score: 0
+    locked: 1
+  - levelNumber: 23
+    score: 0
+    locked: 1
+  - levelNumber: 24
+    score: 0
+    locked: 1
+  - levelNumber: 25
+    score: 0
+    locked: 1
+  - levelNumber: 26
+    score: 0
+    locked: 1
+  - levelNumber: 27
+    score: 0
+    locked: 1
+  - levelNumber: 28
+    score: 0
+    locked: 1
+  - levelNumber: 29
+    score: 0
+    locked: 1
+  - levelNumber: 30
+    score: 0
+    locked: 1
+  - levelNumber: 31
+    score: 0
+    locked: 1
+  - levelNumber: 32
+    score: 0
+    locked: 1
+  - levelNumber: 33
+    score: 0
+    locked: 1
+  - levelNumber: 34
+    score: 0
+    locked: 1
+  - levelNumber: 35
+    score: 0
+    locked: 1
+  - levelNumber: 36
+    score: 0
+    locked: 1
+  - levelNumber: 37
+    score: 0
+    locked: 1
+  - levelNumber: 38
+    score: 0
+    locked: 1
+  - levelNumber: 39
+    score: 0
+    locked: 1
+  - levelNumber: 40
+    score: 0
+    locked: 1
+  - levelNumber: 41
+    score: 0
+    locked: 1
+  - levelNumber: 42
+    score: 0
+    locked: 1
+  - levelNumber: 43
+    score: 0
+    locked: 1
+  - levelNumber: 44
+    score: 0
+    locked: 1
+  - levelNumber: 45
+    score: 0
+    locked: 1
+  - levelNumber: 46
+    score: 0
+    locked: 1
+  - levelNumber: 47
+    score: 0
+    locked: 1
+  - levelNumber: 48
+    score: 0
+    locked: 1
+  - levelNumber: 49
+    score: 0
+    locked: 1
+  - levelNumber: 50
+    score: 0
+    locked: 1
+  - levelNumber: 51
+    score: 0
+    locked: 1
+  - levelNumber: 52
+    score: 0
+    locked: 1
+  - levelNumber: 53
+    score: 0
+    locked: 1
+  - levelNumber: 54
+    score: 0
+    locked: 1
+  - levelNumber: 55
+    score: 0
+    locked: 1
+  - levelNumber: 56
+    score: 0
+    locked: 1
+  - levelNumber: 57
+    score: 0
+    locked: 1
+  - levelNumber: 58
+    score: 0
+    locked: 1
+  - levelNumber: 59
+    score: 0
+    locked: 1
+  - levelNumber: 60
+    score: 0
+    locked: 1
