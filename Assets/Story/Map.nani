@@ -1,0 +1,37 @@
+# Map
+@hidePrinter 
+@hideChars
+@back Map
+@choice "В рубку" goto:Loc1.Loc1
+@choice "В машинний відділ" goto:Loc2.Loc2
+@if MainItemOwner="Loc3"
+@choice "В швартовий відділ" goto:Loc3.Loc3
+@else
+@choice "В швартовий відділ"
+@endIf
+@if MainQuestStage<6
+@choice "\[Квест лог\]" goto:.QuestLog
+@endIf
+@stop
+Тобі там робити немає чого
+@goto .Map
+
+# QuestLog
+@if MainQuestStage==0
+Поговори із Лін у головній кабіні
+@elseif MainQuestStage==1
+Поговори із Рурі у машинному відділі
+@elseIf MainQuestStage==2
+Поговори із Рурі у машинному відділі
+@elseIf MainQuestStage==3
+Знайди кисневі балони для Рурі у швартовому відділі
+@elseIf MainQuestStage==4
+Віднеси кисневі балони для Рурі у машинному відділі
+@elseIf MainQuestStage==5
+Знайди Рурі
+@else
+Ти виконав усі завдання
+@endIf
+@goto .Map
+
+@stop

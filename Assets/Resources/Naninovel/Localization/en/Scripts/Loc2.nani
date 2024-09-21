@@ -1,0 +1,57 @@
+; Ukrainian <uk> to English <en> localization document for `Loc2` naninovel script
+
+# aa6cd156
+; {PlayerName}: Рурі?
+{PlayerName}: Ruri?
+
+# 697dd1fa
+; Рурі: Це ти, {PlayerName}
+Ruri: Is that you, {PlayerName}
+
+# a1be23f2
+; Рурі: Схоже цю дірку не залатати
+Ruri: Looks like this hole can't be patched
+
+# 30f50a6d
+; Рурі: Брат, ти пам'ятаєш де ці штуки?
+Ruri: Brother, do you remember where these things are?
+
+# b604c8f5
+; Рурі: Згадав?
+Ruri: Did you remember?
+
+# 2ece91c2
+; {PlayerName}: Так
+{PlayerName}: Yes
+
+# a64925b4
+; Лагодять
+Fixing
+
+# 35084184
+; Рурі: Схоже це на довго, принеси кисневий балон
+Ruri: Looks like this will take a while, bring the oxygen tank
+
+# 7509e758
+; Рурі: Він в швартовому відділі
+Ruri: It's in the docking bay
+
+# 6c01debd
+; Рурі: Кисневі балони в швартовому відділі
+Ruri: The oxygen tanks are in the docking bay
+
+# a79470fb
+; {PlayerName}: Рурі, я приніс кисневий балон...
+{PlayerName}: Ruri, I brought the oxygen tank...
+
+# 786e8bbe
+; {PlayerName}: Рурі? Куди вона ділась?
+{PlayerName}: Ruri? Where did she go?
+
+# 4852e7c4
+; Рурі: Я буду жити завдяки тобі
+Ruri: I'll live because of you
+
+# 1e3e2aea
+; Через тебе я помру
+Because of you, I will die

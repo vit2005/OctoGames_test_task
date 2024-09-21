@@ -1,0 +1,53 @@
+; Ukrainian <uk> to English <en> localization document for `Map` naninovel script
+
+# 453cebdf
+; @choice "В рубку" goto:Loc1.Loc1
+@choice "To the cockpit" goto:Loc1.Loc1
+
+# 4e9a9fc6
+; @choice "В машинний відділ" goto:Loc2.Loc2
+@choice "To the engine room" goto:Loc2.Loc2
+
+# 33c126ce
+; @choice "В швартовий відділ" goto:Loc3.Loc3
+@choice "To the docking bay" goto:Loc3.Loc3
+
+# 129ac638
+; @choice "В швартовий відділ"
+@choice "To the docking bay"
+
+# 663c6e47
+; @choice "\[Квест лог\]" goto:.QuestLog
+@choice "\[Quest Log\]" goto:.QuestLog
+
+# 9b131754
+; Тобі там робити немає чого
+You have no reason to be there
+
+# 51f0d580
+; Поговори із Лін у головній кабіні
+Talk to Lin in the main cabin
+
+# f14f5fd8
+; Поговори із Рурі у машинному відділі
+Talk to Ruri in the engine room
+
+# f14f5fd8
+; Поговори із Рурі у машинному відділі
+Talk to Ruri in the engine room
+
+# 1e5c18c8
+; Знайди кисневі балони для Рурі у швартовому відділі
+Find oxygen tanks for Ruri in the docking bay
+
+# 7bef14ee
+; Віднеси кисневі балони для Рурі у машинному відділі
+Deliver the oxygen tanks to Ruri in the engine room
+
+# 67698e22
+; Знайди Рурі
+Find Ruri
+
+# b067c3c6
+; Ти виконав усі завдання
+You have completed all tasks

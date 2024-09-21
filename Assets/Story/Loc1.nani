@@ -1,0 +1,72 @@
+# Loc1
+
+@hideChars
+@back Loc1
+
+; Game start
+@if MainQuestStage==0
+Система: Розгермитизація!
+@char Lin
+???: Оце тебе гепнуло по голові
+???: Схоже, що у тебе кров, коханий
+???: Ти хоч пам'ятаєш як тебе звати?
+@input PlayerName summary:"Яке твоє ім'я герой?"
+@stop
+Player: Я {PlayerName}
+Лін: Схоже ти отямився
+Лін: Я займусь починкою електрики, любий, а ти збігай глянь як там Рурі
+Лін: Вона у машинному відділі
+@set MainQuestStage=1
+@goto Map
+
+; Not finish
+@char Lin
+@elseIf MainQuestStage<5
+@char Lin
+Лін: Любий, я займаюсь електрикою, не заважай
+@goto Map
+
+; final scene
+@elseIf MainQuestStage==5
+@char Ruri
+@char Lin
+Рурі: Брате, у нас погані новини
+Лін: Любий, рівень кисню падає, балон лише один
+Рурі: Я намагалась полагодити, але пробоїна розширяється
+Лін: Схоже, нам втрьох не вижити
+{PlayerName}: Наш єдиний кисневий балон, значить
+@choice "Дати Лін" set:MainItemOwner="Lin"
+@choice "Дати Рурі" set:MainItemOwner="Ruri"
+@choice "Залишити собі" set:MainItemOwner="Player"
+@stop
+@if MainItemOwner="Lin"
+@char Lin.Happy
+@char Ruri.Angry
+Lin: Дякую, любий
+@elseIf MainItemOwner="Ruri"
+@char Ruri.Happy
+@char Lin.Angry
+Ruri: Дякую, брате
+@else
+@char Lin.Angry
+@char Ruri.Angry
+Що ж, ти зробив свій вибір, {PlayerName}
+@endIf
+@set MainQuestStage=6
+@goto Map.Map
+
+
+; after final scene
+@else
+
+@if MainItemOwner="Lin"
+@char Lin.Happy
+Лін: Я буду жити завдяки тобі
+@goto Map.Map
+@else
+@char Lin.Angry
+Через тебе я помру
+@goto Map.Map
+@endIf
+
+@endif

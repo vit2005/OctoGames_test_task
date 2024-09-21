@@ -1,0 +1,94 @@
+; Ukrainian <uk> to English <en> localization document for `Loc1` naninovel script
+
+# f1cca012
+; Система: Розгермитизація!
+System: Depressurization!
+
+# d10db143
+; ???: Оце тебе гепнуло по голові
+???: That hit you hard on the head
+
+# b800592d
+; ???: Схоже, що у тебе кров, коханий
+???: Looks like you're bleeding, darling
+
+# ca6f8bf8
+; ???: Ти хоч пам'ятаєш як тебе звати?
+???: Do you even remember your name?
+
+# e2c1cee6
+; @input PlayerName summary:"Яке твоє ім'я герой?"
+@input PlayerName summary:"What's your name, hero?"
+
+# a84c0909
+; Player: Я {PlayerName}
+Player: I am {PlayerName}
+
+# 770eca2f
+; Лін: Схоже ти отямився
+Lin: Looks like you're awake
+
+# 690d9bf5
+; Лін: Я займусь починкою електрики, любий, а ти збігай глянь як там Рурі
+Lin: I'll take care of the electricity, darling. You go check on Ruri
+
+# 1a444d04
+; Лін: Вона у машинному відділі
+Lin: She's in the engine room
+
+# 423317d5
+; Лін: Любий, я займаюсь електрикою, не заважай
+Lin: Darling, I'm working on the electricity. Don't disturb me
+
+# 8640b197
+; Рурі: Брате, у нас погані новини
+Ruri: Brother, we have bad news
+
+# ec9a3ba6
+; Лін: Любий, рівень кисню падає, балон лише один
+Lin: Darling, the oxygen level is dropping, and there's only one tank
+
+# a9aa85a9
+; Рурі: Я намагалась полагодити, але пробоїна розширяється
+Ruri: I tried to fix it, but the breach is widening
+
+# dd53f379
+; Лін: Схоже, нам втрьох не вижити
+Lin: It seems the three of us can't survive
+
+# 844ff3f2
+; {PlayerName}: Наш єдиний кисневий балон, значить
+{PlayerName}: So, our only oxygen tank...
+
+# 3725424f
+; @choice "Дати Лін" set:MainItemOwner="Lin"
+@choice "Give to Lin" set:MainItemOwner="Lin"
+
+# d6ba45b4
+; @choice "Дати Рурі" set:MainItemOwner="Ruri"
+@choice "Give to Ruri" set:MainItemOwner="Ruri"
+
+# 6a972710
+; @choice "Залишити собі" set:MainItemOwner="Player"
+@choice "Keep it for yourself" set:MainItemOwner="Player"
+
+# fb18055c
+; Lin: Дякую, любий
+Lin: Thank you, darling
+
+# 76d5b1cd
+; Ruri: Дякую, брате
+Ruri: Thank you, brother
+
+# fb33b2ce
+; Що ж, ти зробив свій вибір, {PlayerName}
+Well, you've made your choice, {PlayerName}
+
+# 44c4f835
+; Лін: Я буду жити завдяки тобі
+Lin: I'll live because of you
+
+# 1e3e2aea
+; Через тебе я помру
+Because of you, I will die
+

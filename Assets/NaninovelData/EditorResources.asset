@@ -166,3 +166,55 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+  - Id: Scripts
+    Resources:
+    - name: Loc1
+      pathPrefix: Scripts
+      guid: 2c5568fcecdd7394db604503c90b9f41
+    - name: Loc2
+      pathPrefix: Scripts
+      guid: 40f2c3fbc83625944b4521d56c33be49
+    - name: Loc3
+      pathPrefix: Scripts
+      guid: 7f5c3c77c1c0d314080fc376113fc09a
+    - name: Map
+      pathPrefix: Scripts
+      guid: f0b24d24f667aba4daaf1a5f7cb15360
+  - Id: Backgrounds/25ab9c79-0cd4-4c87-b27d-e4cc174f9e85
+    Resources:
+    - name: Loc1
+      pathPrefix: Backgrounds/MainBackground
+      guid: 53d5c72255d19834b9eceb1444849e2e
+    - name: Loc2
+      pathPrefix: Backgrounds/MainBackground
+      guid: a632521aa14c07a419666971c585af7a
+    - name: Loc3
+      pathPrefix: Backgrounds/MainBackground
+      guid: 06efd2d7af3263445b8c9303acb247ae
+    - name: Map
+      pathPrefix: Backgrounds/MainBackground
+      guid: 2d611d6ef4fa6b040a18482cc4e36bb2
+  - Id: Characters/2af4b5d0-62bc-46ac-89b9-8ee6c565fcf6
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Lin
+      guid: a709bbf6922888448b04f0cfb6423214
+    - name: Angry
+      pathPrefix: Characters/Lin
+      guid: ecf11eb233525644284ef33d150b8743
+    - name: Happy
+      pathPrefix: Characters/Lin
+      guid: 07a52307f23572b4b89f330949e0544c
+  - Id: Characters/cd75140d-81cb-4604-a3d8-084002faa25c
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Ruri
+      guid: dc242d2fbf9e9e747b10cb0c8de4fad6
+    - name: Angry
+      pathPrefix: Characters/Ruri
+      guid: b4bd32b82b147f3418168d52efb66a8e
+    - name: Happy
+      pathPrefix: Characters/Ruri
+      guid: aead82b088f5788429763f8332d2a1a2
+  - Id: Audio
+    Resources: []

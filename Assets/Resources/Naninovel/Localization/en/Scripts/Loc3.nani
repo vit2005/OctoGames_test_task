@@ -1,0 +1,21 @@
+; Ukrainian <uk> to English <en> localization document for `Loc3` naninovel script
+
+# b03844e9
+; Навіщо я сюди прийшов?
+Why did I come here?
+
+# e4e2bde7
+; {PlayerName}: Кисневі балони значить...
+{PlayerName}: So, the oxygen tanks...
+
+# f2fac17d
+; @choice "Взяти кисневий балон" button:Oxygen pos:0,0 handler:ButtonArea goto:Map.Map set:MainItemOwner="Player";MainQuestStage=4
+@choice "Take the oxygen tank" button:Oxygen pos:0,0 handler:ButtonArea goto:Map.Map set:MainItemOwner="Player";MainQuestStage=4
+
+# 737f9135
+; @choice "Повернутись до мапи" button:Back pos:-400,400 handler:ButtonArea goto:Map.Map
+@choice "Return to the map" button:Back pos:-400,400 handler:ButtonArea goto:Map.Map
+
+# e4448326
+; Ти вже забрав кисневі балони
+You've already taken the oxygen tanks

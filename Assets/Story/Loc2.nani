@@ -1,0 +1,47 @@
+# Loc2
+@hideChars
+@back Loc2
+@if MainQuestStage=1
+{PlayerName}: Рурі?
+@char Ruri
+Рурі: Це ти, {PlayerName}
+Рурі: Схоже цю дірку не залатати
+Рурі: Брат, ти пам'ятаєш де ці штуки?
+@MiniGame
+
+# AfterMiniGame
+@set MainQuestStage=2
+Рурі: Згадав?
+{PlayerName}: Так
+Лагодять
+Рурі: Схоже це на довго, принеси кисневий балон
+Рурі: Він в швартовому відділі
+@set MainQuestStage=3
+
+@goto Map.Map
+
+@elseIf MainQuestStage==3
+
+@char Ruri
+Рурі: Кисневі балони в швартовому відділі
+
+@goto Map.Map
+@elseIf MainQuestStage<6
+{PlayerName}: Рурі, я приніс кисневий балон...
+
+{PlayerName}: Рурі? Куди вона ділась?
+
+@set MainQuestStage=5
+@goto Map.Map
+
+@elseIf MainItemOwner="Ruri"
+@char Ruri.Happy
+Рурі: Я буду жити завдяки тобі
+@goto Map.Map
+
+@elseIf MainItemOwner!="Ruri"
+@char Ruri.Angry
+Через тебе я помру
+@goto Map.Map
+
+@endIf

@@ -1,0 +1,19 @@
+# Loc3
+@hideChars
+@back Loc3
+@if MainQuestStage<3
+Навіщо я сюди прийшов?
+@goto Map.Map
+@endIf
+@if MainQuestStage=3
+{PlayerName}: Кисневі балони значить...
+@choice "Взяти кисневий балон" button:Oxygen pos:0,0 handler:ButtonArea goto:Map.Map set:MainItemOwner="Player";MainQuestStage=4
+@choice "Повернутись до мапи" button:Back pos:-400,400 handler:ButtonArea goto:Map.Map
+@stop
+
+@else
+Ти вже забрав кисневі балони
+@goto Map.Map
+@endif
+
+@stop
